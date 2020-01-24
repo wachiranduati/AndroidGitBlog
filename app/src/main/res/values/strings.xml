@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidGitBlog</string>
+    <string name="title_activity_page_three">PageThreeActivity</string>
 </resources>
