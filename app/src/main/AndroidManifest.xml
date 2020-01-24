@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".DevActivity"
+            android:label="@string/title_activity_dev"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".PageThreeActivity"
             android:label="@string/title_activity_page_three"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".PageTwoActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
