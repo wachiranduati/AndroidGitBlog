@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ShrewdActivity"
+            android:label="@string/title_activity_shrewd"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".DevActivity"
             android:label="@string/title_activity_dev"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".PageThreeActivity"
             android:label="@string/title_activity_page_three"
